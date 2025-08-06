@@ -1,6 +1,11 @@
 # 🎭 Emotion Classification System
 
-An AI-powered web application that instantly detects emotions in text messages using machine learning.
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+An NLP-powered web application that instantly detects emotions in text messages using machine learning.
+
+![App Screenshot](app_screenshot.jpg)
 
 **[Live Demo - Try it here!](https://emotion-classification-system.onrender.com)**
 
@@ -14,7 +19,7 @@ Perfect for:
 
 - Understanding the mood in messages
 - Learning about text analysis
-- Seeing how AI can read emotions
+- Seeing how NLP can read emotions
 - Practicing with machine learning
 
 
@@ -26,11 +31,6 @@ Perfect for:
 - Choose from example texts to test
 - Get instant emotion prediction
 - See confidence scores for each emotion
-
-**Get detailed results:**
-
-- Primary emotion detected with emoji
-- Confidence percentage for each emotion
 - Visual chart showing probability breakdown
 - High/medium/low confidence indicator
 
@@ -52,7 +52,6 @@ Perfect for:
 - **94% accuracy** - Correctly identifies emotions 94 out of 100 times
 - Trained on **5,937 real text messages**
 - Cross-validated with **91.7% ± 2.1%** reliability
-- Average prediction confidence: **85%+**
 
 **How it works:**
 
@@ -84,13 +83,13 @@ Perfect for:
 ## Project Structure
 
 ```
-emotion-classifier/
-├── app.py                    # Main Streamlit web application
-├── emotion_classify_model.pkl # Trained ML model (94% accuracy)
-├── requirements.txt          # Python dependencies
-├── README.md                # Project documentation
-├── .gitignore               # Git ignore file
-└── .streamlit/config.toml   # Streamlit configuration
+Emotion-Classification-System/
+├── app.py                              # Main Streamlit web application
+├── emotion_classify_model.pkl          # Trained ML model (94% accuracy)
+├── requirements.txt                    # Python dependencies
+├── README.md                           # Project documentation
+├── Emotion Classification System.ipynb # Project notebook
+└── Emotion_classify_Data.csv           # Dataset file
 ```
 
 
@@ -135,7 +134,7 @@ emotion-classifier/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/emotion-classifier.git
+git clone https://github.com/sankaran-s2001/Emotion-Classification-System.git
 cd emotion-classifier
 ```
 
@@ -159,7 +158,7 @@ streamlit run app.py
 
 - **Personal Messages** - Understand the tone in texts or emails
 - **Social Media** - See what emotions your posts convey
-- **Learning Tool** - Explore how AI analyzes text
+- **Learning Tool** - Explore how NLP analyzes text
 - **Fun Project** - Test different messages and see results
 
 **Examples:**
@@ -211,40 +210,12 @@ streamlit run app.py
 - Add emotion history tracking for users
 - Include confidence explanation features
 
-
-## Why This Project is Great
-
-**Perfect for Learning:**
-
-- **Easy to understand** - Clear, simple emotion detection concept
-- **High accuracy** - 94% correct predictions show quality work
-- **Complete project** - From data preprocessing to working web app
-- **Modern tools** - Current machine learning and web technologies
-
-**Great for Portfolio:**
-
-- **Shows ML skills** - Real machine learning implementation
-- **Web development** - Interactive Streamlit application
-- **Problem-solving** - End-to-end project completion
-- **Clean code** - Professional programming practices
-- **Practical application** - Solves a relatable problem
-
-
-## Project Highlights
-
-✅ **94% accuracy** - High-performance emotion detection
-✅ **5,937 training samples** - Substantial dataset for reliable learning
-✅ **Cross-validated** - 91.7% ± 2.1% proves consistent performance
-✅ **Interactive web app** - User-friendly interface with visualizations
-✅ **Production deployed** - Live application accessible anywhere
-✅ **Clean documentation** - Professional presentation and code structure
-
 ## ✉️ Contact
 
-**[Your Name]**
-[
-[
-[
+**Sankaran S**  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sankaran-s2001)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sankaran-s21/)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sankaran121101@gmail.com)
 
 *This project demonstrates how machine learning can understand human emotions in text. Built to showcase data science skills and create a useful tool for emotion analysis.*
 
